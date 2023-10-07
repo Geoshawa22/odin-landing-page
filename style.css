@@ -17,6 +17,11 @@ ul {
   color: #f3f2f7;
 }
 
+a {
+    text-decoration: none;
+    color: #f3f2f7;
+}
+
 .header_logo {
   font-size: 24px;
 }
@@ -27,8 +32,8 @@ ul {
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: center;
-  gap: 225px;
+  justify-content: space-between;
+  gap: 64px;
 }
 
 ul {
