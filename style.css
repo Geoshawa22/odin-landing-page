@@ -1,8 +1,9 @@
 body {
+    background-color: #1b6c86;
     display: flex;
     flex-direction: column;
-    margin:0px;
     min-height: 100vh;
+    align-content: center;
     justify-content: space-between;
     font-family: Arial, Helvetica, sans-serif;
 
@@ -17,12 +18,14 @@ body {
 }
 .header {
     display:flex;
+    background-color: #1b6c86;
+    flex-grow:0;
+    display:flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
-    background-color: #1b6c86;
-    padding: 0px 10%;
-    flex-grow:0;
+    justify-content: center;
+    gap:225px;
+
 
 }
 
@@ -43,35 +46,31 @@ ul {
 .website_intro{
     display:flex;
     background-color: #1b6c86;
-    justify-content: center;
-
-
-}
-
-.intro_wrapper {
-    padding: 40px 10%;
-    justify-content: center;
-    display:flex;
-    gap: 40px;
+    flex-direction: row;
+    justify-content: space-between;
     align-items: center;
-    justify-self: stretch;
-    flex-grow:1;
-    max-width: 900px;
-
+    padding: 40px 10%;
+    display:flex;
+    justify-content: center;
+    gap:150px;
 }
+
+
 .signup {
+    display: flex;
     flex-direction: column;
     gap:10px;
     max-width: max-content;
-
 }
 
 .awesome{
+    display:flex;
     font-size: 48px;
     font-weight: 900;
 }
 
 .subawesome {
+    display:flex;
     font-size: 18px;
 }
 
@@ -143,7 +142,7 @@ button {
     width: 200px;
     border-radius: 25px;
     border-style: solid;
-    border-color: #f9a26c;
+    border-color: #875142;
 }
 
 .info_text {
@@ -154,7 +153,7 @@ button {
 
 .inspiration_container{
     padding: 32px 10%;
-    background: #f9a26c;
+    background: #fdb0a1;
     color: #1F2937;
     display:flex;
     flex-direction: column;
@@ -185,6 +184,7 @@ margin-left:auto;
 .call_container{
     padding: 0px 100px;
     margin:0;
+    background-color: #f3f2f7;
     display:flex;
     flex-direction: column;
     align-items: center;
@@ -194,7 +194,7 @@ margin-left:auto;
     margin: 25px 0;
     padding:20px 50px;
     border-radius: 15px;
-    background-color: #f26627;
+    background-color: #f25939;
     display:flex;
     flex-direction: row;
     align-items: center;
@@ -205,11 +205,17 @@ margin-left:auto;
 
 
 .calltext_container {
+    color:#f3f2f7;
+    display:flex;
+    flex-direction: column;
+    gap:1px;
+    align-items: flex-start;
 }
 
 .call_header {
     font-size: 36px;
     font-weight: 900;
+
 }
 
 .call_subtext {
@@ -226,7 +232,7 @@ margin-left:auto;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    background-color: #325D79;
+    background-color: #1b6c86;
     padding: 0px 10%;
     flex-grow:0;
 
@@ -234,4 +240,10 @@ margin-left:auto;
 
 .cr_sub{
     font-size: small;
+}
+
+.signupbutton2 {
+    border-style: solid;
+    border-width: 1px;
+    border-color: #f3f2f7;
 }
